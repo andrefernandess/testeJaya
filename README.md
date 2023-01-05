@@ -39,4 +39,4 @@ Não é possivel a implantação do sistema no estado atual.
 
 ## ✒️ Autores
 
-* **André Fernandes** - *Trabalho Inicial* - [AndréFernandes](https://github.com/linkParaPerfil)
+* **André Fernandes** - *Trabalho Inicial* - [AndréFernandes](https://www.linkedin.com/in/andrelfernandess/)
