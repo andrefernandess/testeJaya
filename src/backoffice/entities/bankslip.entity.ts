@@ -1,4 +1,5 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
+import { Customer } from './customer.entity';
 
 @Entity()
 export class Bankslip{
@@ -11,10 +12,10 @@ export class Bankslip{
     @Column('decimal')
     total_in_cents: number;
 
-    @Column()
-    customer: string;
+    @ManyToOne(() => Customer, (c) => c.bankSlips)
+    customer: Customer;
 
-    @Column("")
+    @Column()
     status: Status;
 
 }

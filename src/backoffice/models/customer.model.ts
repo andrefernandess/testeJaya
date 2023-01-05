@@ -6,8 +6,9 @@ export class Customer {
         public name: string,
         public document: string,
         public email: string,
-        public bankslips: Bankslip[],
+        public status: Status,
         public user: User,
+        public bankslips: Bankslip[],
     ) {
 
     }
